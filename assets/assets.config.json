@@ -1,0 +1,44 @@
+{
+  "person.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "logoipsum1png.png": {
+    "mime": "image/png"
+  },
+  "logoipsum2.png": {
+    "mime": "image/png"
+  },
+  "logoipsum3.png": {
+    "mime": "image/png"
+  },
+  "logoipsum4.png": {
+    "mime": "image/png"
+  },
+  "services1.PNG": {
+    "mime": "image/png"
+  },
+  "services2.PNG": {
+    "mime": "image/png"
+  },
+  "services3.PNG": {
+    "mime": "image/png"
+  },
+  "project1.png": {
+    "mime": "image/png"
+  },
+  "project2.png": {
+    "mime": "image/png"
+  },
+  "productdesigner1.png": {
+    "mime": "image/png"
+  },
+  "productdesigner2.png": {
+    "mime": "image/png"
+  },
+  "productdesigner3.png": {
+    "mime": "image/png"
+  },
+  "productdesigner4.png": {
+    "mime": "image/png"
+  }
+}
