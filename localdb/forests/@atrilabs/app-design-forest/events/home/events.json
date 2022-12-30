@@ -176673,5 +176673,33 @@
         "index": 1
       }
     }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "ef6ed4a5-4269-4a41-9ce5-faf6608858eb",
+    "slice": {
+      "alias": "homehero-section"
+    }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "ef6ed4a5-4269-4a41-9ce5-faf6608858eb",
+    "slice": {
+      "alias": "home_hero-section"
+    }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "ef6ed4a5-4269-4a41-9ce5-faf6608858eb",
+    "slice": {
+      "alias": "home_herosection"
+    }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "ef6ed4a5-4269-4a41-9ce5-faf6608858eb",
+    "slice": {
+      "alias": "home_hero_section"
+    }
   }
 ]

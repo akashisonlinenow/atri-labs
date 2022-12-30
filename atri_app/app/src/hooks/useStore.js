@@ -52,7 +52,7 @@ const desktopModeProps = {
     "Flex3": {
       "callbacks": {}
     },
-    "home-hero-section": {
+    "home_hero_section": {
       "callbacks": {}
     },
     "Flex29": {

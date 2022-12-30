@@ -144,8 +144,8 @@ export function usebookacall_buttonCb() {
 }), [])
 	return { onClick }
 }
-export function usehome-hero-sectionCb() {
-	const onClick = useCallback(callbackFactory("home-hero-section", "Home", "/", "onClick", 
+export function usehome_hero_sectionCb() {
+	const onClick = useCallback(callbackFactory("home_hero_section", "Home", "/", "onClick", 
 			{
   "handlers": [],
   "actions": [

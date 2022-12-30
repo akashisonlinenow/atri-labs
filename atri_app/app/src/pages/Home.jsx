@@ -9,7 +9,7 @@ import { Flex } from "@atrilabs/react-component-manifests/src/manifests/Flex/Fle
 import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
-import { useDiv1Cb, useFlex1Cb, useFlex2Cb, useFlex3Cb, usehome-hero-sectionCb, useFlex29Cb, useFlex30Cb, useFlex31Cb, useFlex32Cb, useFlex33Cb, useFlex34Cb, useFlex20Cb, useFlex24Cb, useFlex25Cb, useFlex26Cb, useFlex27Cb, useFlex28Cb, useFlex35Cb, useFlex38Cb, useFlex39Cb, useFlex40Cb, useFlex41Cb, useFlex44Cb, useFlex42Cb, useFlex45Cb, useFlex46Cb, useFlex48Cb, useFlex49Cb, useFlex51Cb, useFlex50Cb, useFlex52Cb, useFlex54Cb, useFlex55Cb, useFlex59Cb, useFlex61Cb, useFlex56Cb, useFlex57Cb, useFlex75Cb, useFlex64Cb, useFlex65Cb, useFlex67Cb, useFlex68Cb, useFlex66Cb, useFlex69Cb, useFlex71Cb, useFlex72Cb, useFlex70Cb, useFlex73Cb, useFlex74Cb, useButton1Cb, useabout_buttonCb, useservices_buttonCb, useButton5Cb, useblog_buttonCb, usebookacall_buttonCb, useImage13Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useButton11Cb, useButton12Cb, useTextBox11Cb, useImage4Cb, useImage5Cb, useImage6Cb, useImage7Cb, useTextBox12Cb, useTextBox13Cb, useImage9Cb, useImage10Cb, useImage11Cb, useTextBox19Cb, useTextBox21Cb, useButton13Cb, useImage14Cb, useTextBox22Cb, useTextBox23Cb, useButton15Cb, useImage17Cb, useTextBox25Cb, useTextBox26Cb, useButton16Cb, useTextBox28Cb, useTextBox29Cb, useButton17Cb, useTextBox40Cb, useTextBox41Cb, useButton21Cb, useTextBox38Cb, useTextBox39Cb, useButton20Cb, useButton18Cb, useTextBox36Cb, useTextBox37Cb, useTextBox31Cb, useTextBox32Cb, useButton19Cb, useTextBox42Cb, useTextBox43Cb, useButton22Cb, useTextBox44Cb, useTextBox45Cb, useTextBox47Cb, useImage19Cb, useImage22Cb, useImage23Cb, useImage24Cb } from "../page-cbs/Home";
+import { useDiv1Cb, useFlex1Cb, useFlex2Cb, useFlex3Cb, usehome_hero_sectionCb, useFlex29Cb, useFlex30Cb, useFlex31Cb, useFlex32Cb, useFlex33Cb, useFlex34Cb, useFlex20Cb, useFlex24Cb, useFlex25Cb, useFlex26Cb, useFlex27Cb, useFlex28Cb, useFlex35Cb, useFlex38Cb, useFlex39Cb, useFlex40Cb, useFlex41Cb, useFlex44Cb, useFlex42Cb, useFlex45Cb, useFlex46Cb, useFlex48Cb, useFlex49Cb, useFlex51Cb, useFlex50Cb, useFlex52Cb, useFlex54Cb, useFlex55Cb, useFlex59Cb, useFlex61Cb, useFlex56Cb, useFlex57Cb, useFlex75Cb, useFlex64Cb, useFlex65Cb, useFlex67Cb, useFlex68Cb, useFlex66Cb, useFlex69Cb, useFlex71Cb, useFlex72Cb, useFlex70Cb, useFlex73Cb, useFlex74Cb, useButton1Cb, useabout_buttonCb, useservices_buttonCb, useButton5Cb, useblog_buttonCb, usebookacall_buttonCb, useImage13Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useButton11Cb, useButton12Cb, useTextBox11Cb, useImage4Cb, useImage5Cb, useImage6Cb, useImage7Cb, useTextBox12Cb, useTextBox13Cb, useImage9Cb, useImage10Cb, useImage11Cb, useTextBox19Cb, useTextBox21Cb, useButton13Cb, useImage14Cb, useTextBox22Cb, useTextBox23Cb, useButton15Cb, useImage17Cb, useTextBox25Cb, useTextBox26Cb, useButton16Cb, useTextBox28Cb, useTextBox29Cb, useButton17Cb, useTextBox40Cb, useTextBox41Cb, useButton21Cb, useTextBox38Cb, useTextBox39Cb, useButton20Cb, useButton18Cb, useTextBox36Cb, useTextBox37Cb, useTextBox31Cb, useTextBox32Cb, useButton19Cb, useTextBox42Cb, useTextBox43Cb, useButton22Cb, useTextBox44Cb, useTextBox45Cb, useTextBox47Cb, useImage19Cb, useImage22Cb, useImage23Cb, useImage24Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -41,9 +41,9 @@ const Flex2Cb = useFlex2Cb()
 const Flex3Props = useStore((state)=>state["Home"]["Flex3"]);
 const Flex3IoProps = useIoStore((state)=>state["Home"]["Flex3"]);
 const Flex3Cb = useFlex3Cb()
-const home-hero-sectionProps = useStore((state)=>state["Home"]["home-hero-section"]);
-const home-hero-sectionIoProps = useIoStore((state)=>state["Home"]["home-hero-section"]);
-const home-hero-sectionCb = usehome-hero-sectionCb()
+const home_hero_sectionProps = useStore((state)=>state["Home"]["home_hero_section"]);
+const home_hero_sectionIoProps = useIoStore((state)=>state["Home"]["home_hero_section"]);
+const home_hero_sectionCb = usehome_hero_sectionCb()
 const Flex29Props = useStore((state)=>state["Home"]["Flex29"]);
 const Flex29IoProps = useIoStore((state)=>state["Home"]["Flex29"]);
 const Flex29Cb = useFlex29Cb()
@@ -366,7 +366,7 @@ const Image24Cb = useImage24Cb()
 </Flex>
 </Flex>
 </Div>
-<Flex className="p-Home home-hero-section bpt" {...home-hero-sectionProps} {...home-hero-sectionCb} {...home-hero-sectionIoProps}>
+<Flex className="p-Home home_hero_section bpt" {...home_hero_sectionProps} {...home_hero_sectionCb} {...home_hero_sectionIoProps}>
 <Flex className="p-Home Flex29 bpt" {...Flex29Props} {...Flex29Cb} {...Flex29IoProps}>
 <Flex className="p-Home Flex31 bpt" {...Flex31Props} {...Flex31Cb} {...Flex31IoProps}>
 <Flex className="p-Home Flex32 bpt" {...Flex32Props} {...Flex32Cb} {...Flex32IoProps}>
